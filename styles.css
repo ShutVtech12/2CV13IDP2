@@ -127,6 +127,28 @@ button[id$="wujup"]{
 }
 /*Regla de estilo por selector de atributo igualación contiene*/
 
+a[href*="instagram"] {
+  background-color:cyan;
+}
 /*Regla de estilo por selector de atributo igualación múltiple*/
+a[href*=".com" ] {
+  color: rgb(92, 17, 190);
+  width: 20em;
+}
+a[href*="watch"] {
+  font-size: xx-large
+}
+
 
 /*Regla de estilo por selector de de pseudo clase*/
+.a:link
+.a:visited{
+  color:rgb(151, 21, 190);
+  font-weight: bold;
+ 
+
+}
+.a:hover{
+  color: springgreen;
+  
+}
