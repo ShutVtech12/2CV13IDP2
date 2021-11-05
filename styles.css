@@ -88,10 +88,43 @@ p button {
 
 /*Regla de estilo por selector de atributo igualación exacta*/
 
+a[href="https://www.playlostark.com/es-es"] {
+  font-family:cursive;
+  color:gold;
+  text-align: right;
+  background-color:lightslategrey;
+  border-radius: 0.1rem;
+}
+
 /*Regla de estilo por selector de atributo igualación comienza con*/
-
+button[id^="wujuu"]{
+  line-height: 1.5;
+  color:ghostwhite;
+  text-align: center;
+  vertical-align: middle;
+  cursor:progress;
+  background-color: rgb(118, 125, 221);
+  border-color: rgb(118, 125, 221);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 2rem;
+  transform: rotate(-10deg);
+}
 /*Regla de estilo por selector de atributo igualación finaliza con*/
+button[id$="wujup"]{
+  line-height: 1.5;
+  color:ghostwhite;
+  text-align: center;
+  vertical-align: middle;
+  cursor:zoom-in;
+  background-color: rgb(44, 214, 200);
+  border-color: rgb(44, 214, 200);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  transform: rotate(20deg);
 
+}
 /*Regla de estilo por selector de atributo igualación contiene*/
 
 /*Regla de estilo por selector de atributo igualación múltiple*/
