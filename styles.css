@@ -81,28 +81,41 @@ p button {
 }
 
 /*Regla de estilo Hijo*/
+span {
+  background-color: white;
+}
+div > span {
+  background-color: DodgerBlue;
+}
 
 /*Regla de estilo Hermano*/
+p ~ span {
+  color: red;
+}
 
 /*Regla de estilo Universal*/
+* [lang^="en"] {
+  color: green;
+}
 
 /*Regla de estilo por selector de atributo igualación exacta*/
 
-a[href="https://www.playlostark.com/es-es"] {
-  font-family:cursive;
-  color:gold;
+a[href="https://www.playlostark.com/es-es"]
+{
+  font-family: cursive;
+  color: gold;
   text-align: right;
-  background-color:lightslategrey;
+  background-color: lightslategrey;
   border-radius: 0.1rem;
 }
 
 /*Regla de estilo por selector de atributo igualación comienza con*/
-button[id^="wujuu"]{
+button[id^="wujuu"] {
   line-height: 1.5;
-  color:ghostwhite;
+  color: ghostwhite;
   text-align: center;
   vertical-align: middle;
-  cursor:progress;
+  cursor: progress;
   background-color: rgb(118, 125, 221);
   border-color: rgb(118, 125, 221);
   padding: 0.375rem 0.75rem;
@@ -111,44 +124,38 @@ button[id^="wujuu"]{
   transform: rotate(-10deg);
 }
 /*Regla de estilo por selector de atributo igualación finaliza con*/
-button[id$="wujup"]{
+button[id$="wujup"] {
   line-height: 1.5;
-  color:ghostwhite;
+  color: ghostwhite;
   text-align: center;
   vertical-align: middle;
-  cursor:zoom-in;
+  cursor: zoom-in;
   background-color: rgb(44, 214, 200);
   border-color: rgb(44, 214, 200);
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   border-radius: 1rem;
   transform: rotate(20deg);
-
 }
 /*Regla de estilo por selector de atributo igualación contiene*/
 
 a[href*="instagram"] {
-  background-color:cyan;
+  background-color: cyan;
 }
 /*Regla de estilo por selector de atributo igualación múltiple*/
-a[href*=".com" ] {
+a[href*=".com"] {
   color: rgb(92, 17, 190);
   width: 20em;
 }
 a[href*="watch"] {
-  font-size: xx-large
+  font-size: xx-large;
 }
-
 
 /*Regla de estilo por selector de de pseudo clase*/
-.a:link
-.a:visited{
-  color:rgb(151, 21, 190);
+.a:link .a:visited {
+  color: rgb(151, 21, 190);
   font-weight: bold;
- 
-
 }
-.a:hover{
+.a:hover {
   color: springgreen;
-  
 }
